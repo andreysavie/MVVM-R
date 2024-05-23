@@ -10,6 +10,6 @@ import UIKit
 class CartViewController: BaseController<CartViewModel> {
 
     override func setupLayout() {
-        view.backgroundColor = .red
+        view.backgroundColor = .lightGray
     }
 }

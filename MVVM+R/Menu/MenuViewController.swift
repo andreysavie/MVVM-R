@@ -10,7 +10,7 @@ import UIKit
 class MenuViewController: BaseController<MenuViewModel> {
 
     override func setupLayout() {
-        view.backgroundColor = .blue
+        view.backgroundColor = .lightGray
     }
 
 }

@@ -34,7 +34,6 @@ final class AppRouter: BaseRouter {
     func showSplash() {
         splashWindow = UIWindow(frame: UIScreen.main.bounds)
         splashWindow?.rootViewController = SplashViewController()
-        
         splashWindow?.overrideUserInterfaceStyle = .light
         splashWindow?.windowLevel = .alert
         splashWindow?.isHidden = false

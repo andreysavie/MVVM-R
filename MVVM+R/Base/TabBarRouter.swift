@@ -69,7 +69,7 @@ final class TabBarRouter: BaseRouter {
         self.configureTabBarAppearance()
         self.configureTabBarController(with: tabs)
         self.navigationController.configureNavBar()
-
+ 
         // preload all controllers & setup bindings after configuring tabBarController
         for viewController in self.tabBarController?.viewControllers ?? [] {
             if let navigationVC = viewController as? UINavigationController, let rootVC = navigationVC.viewControllers.first {
